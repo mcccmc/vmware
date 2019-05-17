@@ -1,0 +1,85 @@
+Name,Priority
+Cannot connect to storage,High
+Cannot find vSphere HA master agent,High
+Datastore capability alarm,Low
+Datastore cluster is out of space,High
+Datastore compliance alarm,Low
+Datastore is in multiple datacenters,
+Datastore usage on disk,Medium
+Exit standby error,Low
+Expired Virtual SAN license,
+Health status changed alarm,Medium
+Health status monitoring,Medium
+Host Baseboard Management Controller status,Low
+Host battery status,High
+Host connection and power state,High
+Host connection failure,High
+Host CPU usage,Medium
+Host error,High
+Host hardware fan status,High
+Host hardware power status,High
+Host hardware system board status,High
+Host hardware temperature status,High
+Host hardware voltage,High
+Host IPMI System Event Log status,Low
+Host memory status,High
+Host memory usage,Medium
+Host processor status,High
+Host service console swap rates,Medium
+Host SSD capacity exceeds the licensed limit for Virtual SAN,
+Host storage status,High
+Host vendor provider registration,
+Host virtual flash resource status,
+Host virtual flash resource usage,
+Insufficient vSphere HA failover resources,Low
+License capacity monitoring,Low
+License error,Low
+License inventory monitoring,Low
+License user threshold monitoring,Low
+Migration error,Low
+Network connectivity lost,High
+Network uplink redundancy degraded,High
+Network uplink redundancy lost,High
+No compatible host for Secondary VM,Low
+Pre-4.1 host connected to SIOC-enabled datastore,Low
+SRM Consistency Group Violation,Low
+Status of other host hardware objects,High
+Storage DRS is not supported on a host,
+Storage DRS recommendation,
+Support Assistant has found issues,Low
+The host license edition is not compatible with the vCenter Server license edition,Low
+Thin-provisioned volume capacity threshold exceeded,High
+Timed out starting Secondary VM,Low
+Unmanaged workload detected on SIOC-enabled datastore,Low
+VDP: [001] The most recent checkpoint for the VDP appliance is outdated,Medium
+VDP: [002] The VDP appliance is nearly full,Medium
+VDP: [003] The VDP appliance is full,Medium
+VDP: [004] The VDP appliance datastore is approaching maximum capacity,Low
+VDP: [005] Core services are not running,Medium
+VDP: [006] Management services are not running,Medium
+VDP: [007] File system services are not running,Medium
+VDP: [008] File level restore services are not running,Medium
+VDP: [009] Maintenance services are not running,Medium
+VDP: [010] Backup scheduler is not running,Medium
+VDP: [011] Host License does not permit VDP,Low
+VDP: [012] VDP Advanced License has expired,Low
+VDP: [013] Protected VirtualMachine limit exceeded.,Medium
+VDP: [014] Backup Recovery services are not running,Medium
+Virtual machine Consolidation Needed status,Medium
+Virtual machine CPU usage,Low
+Virtual machine error,Medium
+Virtual machine Fault Tolerance state changed,High
+Virtual Machine Fault Tolerance vLockStep interval Status Changed,Low
+Virtual machine memory usage,Medium
+VM storage compliance alarm,Low
+VMKernel NIC not configured correctly,Medium
+VMware critical notification,High
+vSphere Distributed Switch MTU matched status,High
+vSphere Distributed Switch MTU supported status,High
+vSphere Distributed Switch teaming matched status,Medium
+vSphere Distributed Switch VLAN trunked status,Medium
+vSphere HA failover in progress,High
+vSphere HA host status,Medium
+vSphere HA virtual machine failover failed,High
+vSphere HA virtual machine monitoring action,Medium
+vSphere HA virtual machine monitoring error,Medium

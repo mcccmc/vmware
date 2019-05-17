@@ -1,0 +1,157 @@
+Name,Priority,Notes,IfUsed
+Appliance Management Health Alarm,Low,,
+Cannot connect to storage,High,,
+Cannot find vSphere HA master agent,High,,
+Certificate Status,Low,,
+Cis License Health Alarm,Low,,
+Content Library Service Health Alarm,Low,,
+Data Service Health Alarm,Medium,,
+Datastore capability alarm,Low,,
+Datastore cluster is out of space,High,,
+Datastore compliance alarm,Low,,
+Datastore is in multiple datacenters,Low,,
+Datastore usage on disk,Medium,,
+Errors occurred on the disk(s) of a Virtual SAN host,Medium,,
+ESX Agent Manager Health Alarm,Low,,
+ESXi Host Certificate Status,Low,,
+Exit standby error,Low,,
+Expired host license,Medium,,
+Expired host time-limited license,Medium,,
+Expired vCenter Server license,Medium,,
+Expired vCenter Server time-limited license,Medium,,
+Expired Virtual SAN license,Medium,,
+Expired Virtual SAN time-limited license,Medium,,
+Health status changed alarm,Medium,,
+Host Baseboard Management Controller status,Low,,
+Host battery status,High,,
+Host connection and power state,High,,
+Host connection failure,High,,
+Host CPU usage,Medium,,
+Host error,High,,
+Host flash capacity exceeds the licensed limit for Virtual SAN,Medium,,
+Host hardware fan status,High,,
+Host hardware power status,High,,
+Host hardware system board status,High,,
+Host hardware temperature status,High,,
+Host hardware voltage,High,,
+Host IPMI System Event Log status,Low,,
+Host memory status,High,,
+Host memory usage,Medium,,
+Host processor status,High,,
+Host service console swap rates,Medium,,
+Host storage status,High,,
+Host virtual flash resource status,Low,,
+Host virtual flash resource usage,Low,,
+Identity Health Alarm,Low,,
+Insufficient vSphere HA failover resources,Low,,
+Inventory Health Alarm,Low,,
+License capacity monitoring,Low,,
+License error,Low,,
+License inventory monitoring,Low,,
+License user threshold monitoring,Low,,
+Message Bus Config Health Alarm,Medium,,
+Migration error,Low,,
+Network connectivity lost,High,,
+Network uplink redundancy degraded,High,,
+Network uplink redundancy lost,High,,
+No compatible host for Secondary VM,Low,,
+Object type storage alarm,Medium,,
+Open Virtualization Format Service Health Alarm,Low,,
+Performance Charts Service Health Alarm,Low,,
+RBD Health Alarm,Disabled,Only needed if using Autodeploy,Medium
+Refreshing CA certificates and CRLs for a VASA provider failed,Low,,
+Registration/unregistration of a VASA vendor provider on a Virtual SAN host fails,Low,,
+Registration/unregistration of third-party IO filter storage providers fails on a host,Low,,
+Service Control Agent Health Alarm,Low,,
+SRM Consistency Group Violation,Low,,
+Status of other host hardware objects,High,,
+Storage DRS is not supported on a host,Low,,
+Storage DRS recommendation,Low,,
+The host license edition is not compatible with the vCenter Server license edition,Low,,
+Thin-provisioned volume capacity threshold exceeded,High,,
+Timed out starting Secondary VM,Low,,
+Transfer Service Health Alarm,Medium,Too many alerts,Medium
+Unmanaged workload detected on SIOC-enabled datastore,Low,,
+VASA Provider certificate expiration alarm,Low,,
+VASA provider disconnected,Low,,
+vCenter Server Health Alarm,Medium,,
+Virtual machine Consolidation Needed status,Medium,,
+Virtual machine CPU usage,Disabled,Too many alerts,Low
+Virtual machine error,Medium,,
+Virtual machine Fault Tolerance state changed,Medium,,
+Virtual Machine Fault Tolerance vLockStep interval Status Changed,Medium,,
+Virtual machine memory usage,Disabled,Too many alerts,Low
+Virtual Machine network adapter reservation status,Medium,,
+Virtual SAN Health Alarm 'Active multicast connectivity check',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Advanced Virtual SAN configuration in sync',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'After 1 additional host failure',Disabled,Can disable if not using VSAN,High
+Virtual SAN Health Alarm 'All hosts have a Virtual SAN vmknic configured',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'All hosts have matching multicast settings',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'All hosts have matching subnets',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Basic (unicast) connectivity check (normal ping)',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Cluster health',Disabled,Can disable if not using VSAN,High
+Virtual SAN Health Alarm 'Cluster with multiple unicast agents',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Component metadata health',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Congestion',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Controller Driver',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Controller Release Support',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Current cluster situation',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Data health',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Disk capacity',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'ESX Virtual SAN Health service installation',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Fault domain number check',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Host issues retrieving hardware info',Disabled,Can disable if not using VSAN,Low
+Virtual SAN Health Alarm 'Hosts disconnected from VC',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Hosts with connectivity issues',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Hosts with Virtual SAN disabled',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Hosts without configured unicast agent',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Limits health',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Memory pools (heaps)',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Memory pools (slabs)',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Metadata health',Disabled,Can disable if not using VSAN,High
+Virtual SAN Health Alarm 'MTU check (ping with large packet size)',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Multicast assessment based on other checks',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Network health',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Overall disks health',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Physical disk health',Disabled,Can disable if not using VSAN,High
+Virtual SAN Health Alarm 'Physical disk health retrieval issues',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'SCSI Controller on Virtual SAN HCL',Disabled,Can disable if not using VSAN,Low
+Virtual SAN Health Alarm 'Software state health',Disabled,Can disable if not using VSAN,High
+Virtual SAN Health Alarm 'Some hosts do not support stretched cluster',Disabled,Can disable if not using VSAN,Low
+Virtual SAN Health Alarm 'Stretched cluster health',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Stretched cluster with no disk mapping witness host',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Stretched cluster without a witness host',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Unexpected Virtual SAN cluster members',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Virtual SAN CLOMD liveness',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Virtual SAN cluster partition',Disabled,Can disable if not using VSAN,High
+Virtual SAN Health Alarm 'Virtual SAN HCL DB up-to-date',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Virtual SAN HCL health',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Virtual SAN Health Service up-to-date',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Virtual SAN object health',Disabled,Can disable if not using VSAN,High
+Virtual SAN Health Alarm 'Witness host inside one of the fault domain',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Witness host part of cluster',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Witness host with invalid preferred fault domain',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Alarm 'Witness host with non-existing fault domain',Disabled,Can disable if not using VSAN,Medium
+Virtual SAN Health Service Alarm for Overall Health Summary,Disabled,Can disable if not using VSAN,Medium
+VM storage compliance alarm,Low,,
+VMKernel NIC not configured correctly,Medium,,
+VMware Common Logging Service Health Alarm,Low,,
+VMware System and Hardware Health Manager Service Health Alarm,Low,,
+VMware vAPI Endpoint Service Health Alarm,Low,,
+VMware vFabric Postgres Service Health Alarm,Low,,
+VMware vSphere ESXi Dump Collector Health Alarm,Low,,
+VMware vSphere Profile-Driven Storage Service Health Alarm,Low,,
+vService Manager Health Alarm,Low,,
+vSphere APIs for IO Filtering (VAIO) Filter Management Operations,Low,,
+vSphere Client Health Alarm,Low,,Low
+vSphere Distributed Switch MTU matched status,High,,
+vSphere Distributed Switch MTU supported status,High,,
+vSphere Distributed Switch teaming matched status,Medium,,
+vSphere Distributed Switch VLAN trunked status,Medium,,
+vSphere HA failover in progress,High,,
+vSphere HA host status,Medium,,
+vSphere HA virtual machine failover failed,High,,
+vSphere HA virtual machine monitoring action,Medium,,
+vSphere HA virtual machine monitoring error,Medium,,
+vSphere HA VM Component Protection could not power off a virtual machine,Low,,
+vSphere vCenter Host Certificate Management Mode,Low,,
